@@ -1,0 +1,107 @@
+@charset "UTF-8";
+:root {
+  --primaryColor: #3ab3a7;
+  --PrimaryHover: #0c988a;
+  --secHoverColor:#253b53;
+  --greyColor:#f7f7f7;
+}
+
+.home {
+  height: 90vh;
+  width: 100%;
+  padding: 5rem 1.5rem;
+  background: linear-gradient(rgba(0, 0, 1, 0.42), rgba(0, 0, 1, 0.549)), url("./../assets/banner-4.jpg");
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  row-gap: 3rem;
+  /* Aplique a animação ao botão */
+}
+.home .spanText {
+  color: white;
+  font-weight: 500;
+  font-size: 14.5px;
+}
+.home .homeTitle {
+  color: white;
+  padding: 2rem 0;
+  font-size: 40px;
+}
+.home .homeTitle strong {
+  font-weight: 800;
+}
+.home .btn {
+  border: 2px solid white;
+  color: white;
+  font-size: 14px;
+  width: -moz-max-content;
+  width: max-content;
+  transition: 0.8s ease;
+}
+.home .btn:hover {
+  background: white;
+  color: var(--primaryColor);
+  border: 2px solid white;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(85px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.home .btn {
+  animation: fadeUp 2s ease;
+}
+
+@media screen and (min-width: 690px) {
+  .home .homeText {
+    transform: translateX(3.5rem);
+  }
+  .home .spanText {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .home .homeTitle {
+    color: white;
+    padding: 2rem 0;
+    font-size: 45px;
+  }
+  .home .btn {
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 840px) {
+  .home {
+    height: 94vh;
+  }
+  .home .homeText {
+    transform: translateX(6rem);
+  }
+}
+@media screen and (min-width: 1240px) {
+  .home {
+    height: 100vh;
+  }
+  .home .homeText {
+    transform: translateX(10rem);
+  }
+  .home .homeText .spanText {
+    font-size: 24px;
+  }
+  .home .homeText .homeTitle {
+    font-size: 54px;
+  }
+  .home .homeText .btn {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=Home.css.map */
