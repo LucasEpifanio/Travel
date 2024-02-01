@@ -2,8 +2,8 @@ import React, {useEffect} from 'react'
 import './Tour.css'
 
 //Imported Images
-import tourImage1 from '.././assets/tourImage1'
-import tourImage2 from '.././assets/tourImage2.jpg'
+import tourimage1 from '../assets/tourimage1.jpg'
+import tourimage2 from '../assets/tourimage2.jpg'
 //Import Icons
 import { AiFillStar } from 'react-icons/ai'
 
@@ -27,7 +27,7 @@ const Tour = () => {
         <div className='tourContainer'>
           <div data-aos='fade-up' data-aos-duration='2500' className='singleTour grid'>
             <div data-aos='fade-up' data-aos-duration='2200' className='imgDiv'>
-              <img src={tourImage1}/>
+              <img src={tourimage1}/>
             </div>
             <div data-aos='fade-up' data-aos-duration='2000' className='tourInfo'>
               <span className="tourTitle">
@@ -60,7 +60,7 @@ const Tour = () => {
 
           <div data-aos='fade-up' data-aos-duration='2500' className='singleTour grid'>
             <div data-aos='fade-up' data-aos-duration='2200' className='imgDiv'>
-              <img src={tourImage2}/>
+              <img src={tourimage2}/>
             </div>
             <div data-aos='fade-up' data-aos-duration='2000' className='tourInfo'>
               <span className="tourTitle">
