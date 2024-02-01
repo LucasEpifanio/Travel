@@ -1,9 +1,9 @@
-import React, {useEffect} from 'react'
-import './Tour.css'
+import React, {useEffect} from 'react';
+import './Tour.css';
 
 //Imported Images
-import tourimage1 from '../assets/tourimage1.jpg'
-import tourimage2 from '../assets/tourimage2.jpg'
+import tourimage1 from '../assets/tourimage1.jpg';
+import tourimage2 from '../assets/tourimage2.jpg';
 //Import Icons
 import { AiFillStar } from 'react-icons/ai'
 
