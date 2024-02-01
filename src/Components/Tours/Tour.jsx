@@ -2,8 +2,8 @@ import React, {useEffect} from 'react'
 import './Tour.css'
 
 //Imported Images
-import tourImage1 from '../assets/tourimage1.jpg'
-import tourImage2 from '../assets/tourImage2.jpg'
+import tourImage1 from '.././assets/tourImage1'
+import tourImage2 from '.././assets/tourImage2.jpg'
 //Import Icons
 import { AiFillStar } from 'react-icons/ai'
 
